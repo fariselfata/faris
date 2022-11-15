@@ -1,0 +1,182 @@
+nav {
+    width: 100%;
+    margin: auto;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+}
+.logo a{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+a.tbl-pink {
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: red;
+    font-family: sans-serif;
+}
+
+a.tbl-pink:hover {
+    background: blue;
+    text-decoration: none;
+}
+section img {
+    margin-left: 50px;
+}
+
+span {
+    color: red;
+}
+
+.deskripsi a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.text img {
+    margin-left: 100px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+    margin-left: -15px;
+}
+
+.kartu-tutor p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.kartu-partner p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+#copy {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    background: #dedede;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
